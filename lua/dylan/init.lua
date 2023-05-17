@@ -1,5 +1,7 @@
 require("dylan.remap")
 require("dylan.set")
-require("dylan.packer")
-
-vim.cmd [[setlocal spell spelllang=en_us]]
+require("dylan.lazy")
+require("dylan.colors")
+require("dylan.lsp")
+require("dylan.cmp")
+require("dylan.snip")
