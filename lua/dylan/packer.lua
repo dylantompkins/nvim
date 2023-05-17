@@ -52,4 +52,8 @@ return require('packer').startup(function(use)
 	  }
   }
 
+  use ('lervag/vimtex')
+
+  use ('mfussenegger/nvim-jdtls')
+
 end)

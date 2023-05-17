@@ -17,6 +17,10 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
+-- copy into system clipboard
+vim.keymap.set({"n", "v"}, "<leader>p", [["+p]])
+vim.keymap.set("n", "<leader>P", [["+P]])
+
 -- find and replace current word
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
